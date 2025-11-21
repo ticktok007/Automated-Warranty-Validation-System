@@ -36,11 +36,12 @@ text
 ├── requirements.txt
 ├── README.md
 └── ...
+
+
 🚀 Getting Started
 Clone this repository
 
 Install requirements
-
 text
 pip install -r requirements.txt
 Edit paths/configs in the scripts to match your environment
@@ -50,11 +51,14 @@ Start the backend API
 text
 python warranty_check.py
 # or, preferred: uvicorn warranty_check:app --reload
+
 Run the GUI (optional)
 
 text
 python warranty_validator_gui.py
+
 🛠️ Tech Stack
+
 Python 3.8+
 
 PyTorch
